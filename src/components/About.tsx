@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import Section from "../components/ui/Section";
-import aboutImage from ".././assets/images/2.png";
+import aboutImage from "../assets/images/2.png";
 import UserPlaceholder from "../components/ui/UserPlaceholder";
 
 const About = () => {

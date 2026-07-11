@@ -1,8 +1,8 @@
 import type { CaseStudy } from "../types";
 
-import caseStudy1 from ".././assets/caseStudies/1.png";
-import caseStudy2 from ".././assets/caseStudies/2.png";
-import caseStudy3 from ".././assets/caseStudies/3.png";
+import caseStudy1 from "../assets/CaseStudies/1.png";
+import caseStudy2 from "../assets/CaseStudies/2.png";
+import caseStudy3 from "../assets/CaseStudies/3.png";
 
 export const CASE_STUDIES: CaseStudy[] = [
   {
