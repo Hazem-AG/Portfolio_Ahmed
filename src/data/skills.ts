@@ -19,8 +19,6 @@ export const SKILLS: SkillsData = {
     "Shopify",
     "Easy Order",
     "Looker Studio",
-    "AI-Powered Marketing",
-    "Prompt Engineering",
     "Funnel Optimization",
     "A/B Testing",
   ],
@@ -31,9 +29,7 @@ export const SKILLS: SkillsData = {
     "Audience Research",
     "Competitor Analysis",
     "UGC Direction",
-    "AI Content Creation",
-    "AI Image Generation",
-    "AI Video Generation",
+
   ],
 
   freelance: [
