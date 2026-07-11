@@ -81,25 +81,23 @@ const Hero = () => {
     </Button>
 
     <div className="flex items-center gap-3">
-      {/* View CV */}
-      <a
-        href="public/cv/Ahmed-Hussein-CV.pdf"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="px-7 h-14 rounded-full border border-white/10 bg-white/5 hover:border-[#D4AF37] hover:text-[#D4AF37] transition-all duration-300 flex items-center font-medium"
-      >
-        View CV
-      </a>
+  <a
+    href={`${import.meta.env.BASE_URL}cv/Ahmed-Hussein-CV.pdf`}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="px-7 h-14 rounded-full border border-white/10 bg-white/5 hover:border-[#D4AF37] hover:text-[#D4AF37] transition-all duration-300 flex items-center font-medium"
+  >
+    View CV
+  </a>
 
-      {/* Download CV */}
-      <a
-        href="public/cv/Ahmed-Hussein-CV.pdf"
-        download
-        className="w-14 h-14 rounded-full bg-[#D4AF37] text-black flex items-center justify-center hover:scale-110 hover:shadow-[0_0_25px_rgba(212,175,55,.6)] transition-all duration-300"
-      >
-        <Download size={20} />
-      </a>
-    </div>
+  <a
+    href={`${import.meta.env.BASE_URL}cv/Ahmed-Hussein-CV.pdf`}
+    download="Ahmed-Hussein-CV.pdf"
+    className="w-14 h-14 rounded-full bg-[#D4AF37] text-black flex items-center justify-center hover:scale-110 hover:shadow-[0_0_25px_rgba(212,175,55,.6)] transition-all duration-300"
+  >
+    <Download size={20} />
+  </a>
+</div>
   </div>
 
   {/* Contact & Social */}
