@@ -75,37 +75,21 @@ const About = () => {
   <p>
     I am a <strong className="text-white">Senior Performance Media Buyer</strong> and
     <strong className="text-white"> Digital Marketing Specialist</strong> with over
-    <strong className="text-[#D4AF37] font-medium"> 7 years of experience</strong> in
-    digital marketing. I began my career as a Social Media Specialist, building
-    a strong foundation in content strategy, audience behavior, and brand
-    communication before transitioning into performance marketing.
+    <strong className="text-[#D4AF37] font-medium"> 7 years of experience</strong> driving ROI and sustainable growth for brands across the US, GCC, and Egyptian markets.
   </p>
 
   <p>
-    Throughout my career, I have collaborated with businesses across the
-    Egyptian, GCC, and U.S. markets, working with both established companies
-    and growing brands through freelance and full-time roles. I have managed
-    high-performing campaigns across a wide range of industries, including
-    fashion, tourism, restaurants, automotive, furniture, healthcare,
-    publishing, construction, and education. My approach is centered on
-    creating data-driven marketing strategies that increase revenue, maximize
-    ROI, and deliver sustainable business growth.
-  </p>
-
-  <p>
-    Beyond media buying, I specialize in creative strategy, ad creative
-    development, and building high-converting e-commerce stores using
+    Building on a strong foundation in social media strategy, I manage high-converting campaigns across diverse industries. I specialize in data-driven strategies, creative ad development, and building optimized e-commerce stores using
     <strong className="text-[#D4AF37] font-medium"> Shopify</strong> and
-    <strong className="text-[#D4AF37] font-medium"> Easy Order</strong>. I also
-    leverage AI-powered tools to optimize workflows, improve campaign
-    performance, and support smarter marketing decisions. My core expertise
-    includes <strong className="text-white">Performance Marketing</strong>,
-    <strong className="text-white"> Media Buying</strong>,
-    <strong className="text-white"> Social Media Strategy</strong>,
+    <strong className="text-[#D4AF37] font-medium"> Easy Order</strong>.
+  </p>
+
+  <p>
+    By leveraging AI-powered tools and advanced analytics, I optimize workflows and scale business revenue. My core expertise includes
+    <strong className="text-white">Performance Marketing</strong>,
     <strong className="text-white"> E-commerce Growth</strong>,
     <strong className="text-white"> Lead Generation</strong>,
-    <strong className="text-white"> Conversion Optimization</strong>,
-    <strong className="text-white"> Marketing Analytics</strong>, and
+    <strong className="text-white"> Conversion Optimization</strong>, and
     <strong className="text-white"> AI-Driven Marketing Solutions</strong>.
   </p>
 </div>

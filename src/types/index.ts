@@ -1,8 +1,14 @@
 export interface NavLink { name: string; href: string; }
 export interface Stat { value: number; suffix: string; label: string; }
 export interface Service { icon: React.ReactNode; title: string; desc: string; }
-export interface SkillsData { platforms: string[]; technical: string[]; creative: string[]; }
-export interface ResultItem { id: number; category: string; img: string; title: string; }
+export interface SkillsData {
+  platforms: string[];
+  technical: string[];
+  creative: string[];
+  freelance: string[];
+  industries: string[];
+  ai: string[];
+}export interface ResultItem { id: number; category: string; img: string; title: string; }
 export interface CaseStudyResults {
   adSpend: string;
   orders: string;

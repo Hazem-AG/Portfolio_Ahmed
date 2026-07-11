@@ -15,7 +15,6 @@ import Stats from "./components/Stats";
 import ResultsGallery from "./components/ResultsGallery";
 import CaseStudies from "./components/CaseStudies";
 import BrandsMarquee from "./components/BrandsMarquee";
-import Testimonials from "./components/Testimonials";
 import Contact from "./components/Contact";
 
 import Footer from "./components/Footer";
@@ -107,7 +106,7 @@ export default function App() {
 
           <BrandsMarquee />
 
-          <Testimonials />
+          
 
           <Contact />
         </main>

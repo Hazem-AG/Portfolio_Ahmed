@@ -221,3 +221,60 @@ export const MessageCircle = ({ size = 24 }: { size?: number }) => (
     <path d="M21 11.5a8.5 8.5 0 0 1-8.5 8.5 8.4 8.4 0 0 1-4-.9L3 21l1.9-5.2A8.5 8.5 0 1 1 21 11.5z" />
   </svg>
 );
+// ================= Briefcase =================
+export const Briefcase = ({ size = 24 }: { size?: number }) => (
+  <svg
+    width={size}
+    height={size}
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+  >
+    <rect x="2" y="7" width="20" height="14" rx="2" ry="2" />
+    <path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
+    <path d="M2 12h20" />
+    <path d="M10 12v2h4v-2" />
+  </svg>
+);
+// ================= Sparkles =================
+export const Sparkles = ({ size = 24 }: { size?: number }) => (
+  <svg
+    width={size}
+    height={size}
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+  >
+    <path d="M12 3l1.4 3.6L17 8l-3.6 1.4L12 13l-1.4-3.6L7 8l3.6-1.4L12 3z" />
+    <path d="M5 14l0.8 2L8 16.8l-2.2.8L5 20l-.8-2.4L2 16.8l2.2-.8L5 14z" />
+    <path d="M19 13l1 2.5L22.5 16l-2.5.5L19 19l-1-2.5L15.5 16l2.5-.5L19 13z" />
+  </svg>
+);
+// ================= Building2 =================
+export const Building2 = ({ size = 24 }: { size?: number }) => (
+  <svg
+    width={size}
+    height={size}
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+  >
+    <rect x="4" y="3" width="16" height="18" rx="2" />
+    <path d="M8 7h2" />
+    <path d="M14 7h2" />
+    <path d="M8 11h2" />
+    <path d="M14 11h2" />
+    <path d="M8 15h2" />
+    <path d="M14 15h2" />
+    <path d="M11 21v-3h2v3" />
+  </svg>
+);

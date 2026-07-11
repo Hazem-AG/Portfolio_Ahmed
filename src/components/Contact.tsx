@@ -121,7 +121,7 @@ const Contact = () => {
                 </div>
 
                 <div className="text-white font-medium text-sm md:text-base">
-                  Egypt (Available Worldwide)
+                  Egypt (Cairo)
                 </div>
               </div>
             </div>
