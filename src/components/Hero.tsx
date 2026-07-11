@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
-import profileImage from "../assets/images/1.png";
+import profileImage from ".././assets/images/1.png";
 import Section from "./ui/Section";
 import Button from "./ui/Button";
-import cvFile from "../assets/cv/Ahmed-Hussein-CV.pdf";
+import cvFile from ".././assets/cv/Ahmed-Hussein-CV.pdf";
 import { Facebook, Instagram, Linkedin } from "../icons/SocialIcons";
 import { Phone, Download, TrendingUp, Award } from "../icons/SocialIcons";
 
