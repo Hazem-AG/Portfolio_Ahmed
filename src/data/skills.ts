@@ -21,6 +21,7 @@ export const SKILLS: SkillsData = {
     "Looker Studio",
     "Funnel Optimization",
     "A/B Testing",
+    "Canva",
   ],
 
   creative: [
