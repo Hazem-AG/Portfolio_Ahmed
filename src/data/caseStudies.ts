@@ -1,4 +1,8 @@
-import type { CaseStudy } from "../types/index";
+import type { CaseStudy } from "../types";
+
+import caseStudy1 from "../assets/caseStudies/1.png";
+import caseStudy2 from "../assets/caseStudies/2.png";
+import caseStudy3 from "../assets/caseStudies/3.png";
 
 export const CASE_STUDIES: CaseStudy[] = [
   {
@@ -10,7 +14,7 @@ export const CASE_STUDIES: CaseStudy[] = [
       orders: "5,000+",
       revenue: "2.5M+ EGP",
     },
-    img: "src/assets/caseStudies/2.png",
+    img: caseStudy2,
   },
   {
     client: "Cosmetics & Beauty Products",
@@ -21,7 +25,7 @@ export const CASE_STUDIES: CaseStudy[] = [
       orders: "2,000+",
       revenue: "1.7M+ EGP",
     },
-    img: "src/assets/caseStudies/3.png",
+    img: caseStudy3,
   },
   {
     client: "Men's Polo Collection",
@@ -32,6 +36,6 @@ export const CASE_STUDIES: CaseStudy[] = [
       orders: "4,500+",
       revenue: "3M+ EGP",
     },
-    img: "src/assets/caseStudies/1.png",
+    img: caseStudy1,
   },
 ];

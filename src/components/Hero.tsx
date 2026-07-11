@@ -1,9 +1,8 @@
 import { motion } from "framer-motion";
-
+import profileImage from "../assets/images/1.png";
 import Section from "./ui/Section";
 import Button from "./ui/Button";
-import UserPlaceholder from "./ui/UserPlaceholder";
-
+import cvFile from "../assets/cv/Ahmed-Hussein-CV.pdf";
 import { Facebook, Instagram, Linkedin } from "../icons/SocialIcons";
 import { Phone, Download, TrendingUp, Award } from "../icons/SocialIcons";
 
@@ -81,8 +80,9 @@ const Hero = () => {
     </Button>
 
     <div className="flex items-center gap-3">
+  {/* View CV */}
   <a
-    href={`${import.meta.env.BASE_URL}cv/Ahmed-Hussein-CV.pdf`}
+    href={cvFile}
     target="_blank"
     rel="noopener noreferrer"
     className="px-7 h-14 rounded-full border border-white/10 bg-white/5 hover:border-[#D4AF37] hover:text-[#D4AF37] transition-all duration-300 flex items-center font-medium"
@@ -90,8 +90,9 @@ const Hero = () => {
     View CV
   </a>
 
+  {/* Download CV */}
   <a
-    href={`${import.meta.env.BASE_URL}cv/Ahmed-Hussein-CV.pdf`}
+    href={cvFile}
     download="Ahmed-Hussein-CV.pdf"
     className="w-14 h-14 rounded-full bg-[#D4AF37] text-black flex items-center justify-center hover:scale-110 hover:shadow-[0_0_25px_rgba(212,175,55,.6)] transition-all duration-300"
   >
@@ -152,16 +153,14 @@ const Hero = () => {
           <div className="absolute inset-0 rounded-full bg-[#D4AF37]/20 blur-[90px]" />
 
           <div className="relative aspect-square rounded-full border border-[#D4AF37]/20 overflow-hidden bg-[#121212] shadow-[0_0_40px_rgba(212,175,55,.15)] flex items-center justify-center">
-
-            {/* لو عندك صورة شخصية */}
-            { <img
-              src="src/assets/images/1.png"
-              className="w-full h-full object-cover"
-              alt="Ahmed Hussein"
-            /> }
-
-            
-          </div>
+  <img
+    src={profileImage}
+    alt="Ahmed Hussein"
+    className="w-full h-full object-cover"
+    loading="eager"
+    draggable={false}
+  />
+</div>
 
           {/* Card 1 */}
 
