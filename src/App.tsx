@@ -6,7 +6,7 @@ import CustomCursor from "./components/ui/CustomCursor";
 import Preloader from "./components/ui/Preloader";
 
 import Navbar from "./components/Navbar";
-
+import { Analytics } from "@vercel/analytics/react";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Services from "./components/Services";
@@ -144,6 +144,7 @@ export default function App() {
         </div>
       </div>
     </>
+    <Analytics />
       </>
   </LightboxProvider>
 );
