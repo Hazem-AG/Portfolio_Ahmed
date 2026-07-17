@@ -7,7 +7,7 @@ import Preloader from "./components/ui/Preloader";
 
 import Navbar from "./components/Navbar";
 import { Analytics } from "@vercel/analytics/react";
-import { SpeedInsights } from "@vercel/speed-insights/next"
+import { SpeedInsights } from "@vercel/speed-insights/react"
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Services from "./components/Services";
